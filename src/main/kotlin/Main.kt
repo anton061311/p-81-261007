@@ -1,14 +1,13 @@
 package com.back
 
-class Person(
-    val name : String
-) {
-    fun greet() {
-        println("Hello, my name is $name")
-    }
-}
-
 fun main() {
-    val person = Person("Alice")
-    person.greet()
+    val name1: String = "John"
+    val name2: String? = null
+
+    print(name1.length)
+    if(name2 != null) {
+        print (name2.length)
+    }
+
+    print(name2?.length ?: "empty name")
 }
