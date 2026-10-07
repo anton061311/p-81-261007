@@ -1,12 +1,9 @@
 package com.back
 
-import Person
-
 fun main() {
 
-    val p1 = Person("John")
-    val p2 = Person("John")
+    val names = listOf("Alice", "Bob", "Charlie")
 
-    print(p1 == p2)
-    print(p1.toString())
+    names.forEach ({ name -> println(name) }) // 매개변수 표현
+    names.forEach {println(it)} // 매개변수 it으로 대체
 }
