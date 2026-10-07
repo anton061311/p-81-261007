@@ -1,13 +1,12 @@
 package com.back
 
+import Person
+
 fun main() {
-    val name1: String = "John"
-    val name2: String? = null
 
-    print(name1.length)
-    if(name2 != null) {
-        print (name2.length)
-    }
+    val p1 = Person("John")
+    val p2 = Person("John")
 
-    print(name2?.length ?: "empty name")
+    print(p1 == p2)
+    print(p1.toString())
 }
