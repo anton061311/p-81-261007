@@ -1,3 +1,5 @@
+
+## 2026.10.07, WED
 # 3
 public class Main {
 public static void main(String[] args) {
@@ -47,3 +49,8 @@ Kotlin에서는 try를 표현식으로 사용할 수 있다.
 또한, checked exception이 없기 때문에 throws 선언이 필요 없다.
 
 checked Exception -> try - catch 필수. 안 하면 컴파일이 안 됨
+
+# 18, when
+------------------------------------------------------------------------
+
+## 2026.10.08, THR

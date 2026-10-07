@@ -1,8 +1,14 @@
 package com.back
 
 fun main() {
-    val name = "Alice"
-    val age = 25
+    val day = 3
 
-    println("안녕하세요 저는 ${name.length}입니다. 나이는 ${age}살입니다.")
+    val dayName = when (day) {
+        1 -> "Monday"
+        2 -> "Tuesday"
+        3 -> "Wednesday"
+        else -> "Invalid Day"
+    }
+
+    println("Day: $dayName")
 }
