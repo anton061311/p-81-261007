@@ -35,3 +35,10 @@ Kotlin에서는 기본 매개변수를 제공해, 오버로딩 없이 기본값�
 
 Java에서는 static이나 enum을 활용해야 하지만,
 Kotlin에서는 object를 사용해 간단하게 싱글톤을 만들 수 있다. 
+
+# 17, Exception
+Java와 Kotlin의 예외 처리는 유사하지만, 
+Kotlin에서는 try를 표현식으로 사용할 수 있다.
+또한, checked exception이 없기 때문에 throws 선언이 필요 없다.
+
+checked Exception -> try - catch 필수. 안 하면 컴파일이 안 됨

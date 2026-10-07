@@ -1,23 +1,10 @@
 package com.back
 
-class Test {
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
 
-}
-
-object Singleton {
-    fun showMessgae() {
-        println("Hello, World!")
-    }
-}
+class File{}
 
 fun main() {
-    val s1 = Singleton
-    val s2 = Singleton
-
-    println(s1 == s2) //싱글톤이므로 항상 같은 인스턴스가 반환
-
-    val t1 = Test()
-    val t2 = Test()
-
-    println(t1 == t2)
+    Files.copy(File("a.txt").toPath(), File("a_copy.txt").toPath(), StandardCopyOption.REPLACE_EXISTING)
 }
