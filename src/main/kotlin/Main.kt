@@ -1,10 +1,8 @@
 package com.back
 
-import java.nio.file.Files
-import java.nio.file.StandardCopyOption
-
-class File{}
-
 fun main() {
-    Files.copy(File("a.txt").toPath(), File("a_copy.txt").toPath(), StandardCopyOption.REPLACE_EXISTING)
+    val name = "Alice"
+    val age = 25
+
+    println("안녕하세요 저는 ${name.length}입니다. 나이는 ${age}살입니다.")
 }

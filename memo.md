@@ -36,6 +36,11 @@ Kotlin에서는 기본 매개변수를 제공해, 오버로딩 없이 기본값�
 Java에서는 static이나 enum을 활용해야 하지만,
 Kotlin에서는 object를 사용해 간단하게 싱글톤을 만들 수 있다. 
 
+# 16, string template
+Java에서는 + 연산자나 String.format()을 사용하지만,
+Kotlin은 문자열 내부에 변수 값을 쉽게 삽입할 수 있는 문자열 템플릿 기능을 제공한다.
+${name.length}
+
 # 17, Exception
 Java와 Kotlin의 예외 처리는 유사하지만, 
 Kotlin에서는 try를 표현식으로 사용할 수 있다.
