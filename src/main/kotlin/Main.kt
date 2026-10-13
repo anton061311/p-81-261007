@@ -1,36 +1,29 @@
-class Person(
-    var name: String,
-    var age: Int,
-    var weight: Double,
-    var salary: Int
-) {
-
-    fun increaseAge(years: Int) {
-        age += years
-    }
-
-    fun increaseWeight(kg: Double) {
-        weight += kg
-    }
-
-    fun increaseSalary(amount: Int) {
-        salary += amount
-    }
-
-    fun getInfo() {
-        println("이름: $name, 나이: $age, 몸무게: $weight, 연봉: $salary")
-    }
+class Person {
+    var name: String = ""
+    var age: Int = 0
 }
 
 fun main() {
 
-    val p1 = Person("Alice", 25, 55.5, 3000)
+    val p1 = Person()
 
-    with(p1) {
-        increaseAge(5)
-        increaseWeight(3.5)
-        increaseSalary(10000)
+    p1.apply {
+        name = "Alice"
+        age = 25
+    }.also {
+        println("이름: ${it.name}, 나이: ${it.age} 으로 생성됨")
+    }.let {
+        it.name.length
+    }.run {
+        this * 2
+    }.also {
+        println("이름 길이의 2배: $it")
     }
 
-    p1.getInfo()
+    val rst = with(p1) {
+        "${age}살 ${name}님 환영합니다."
+    }
+
+    println(rst)
+
 }
