@@ -62,7 +62,9 @@ Kotlin에서는 filter 함수를 사용하여 간결하게 리스트를 필터�
 Java에서는 Stream API를 사용해야 하지만,
 Kotlin에서는 map이 기본적으로 제공된다.
 
-# 21, 
+# 21, Elvis ?:
+Java에서는 if-else 또는 Optional을 사용해야 하지만
+Kotlin에서는 ?:(엘비스 연산자)를 사용하여 null인 경우 기본값을 제공할 수 있다.
 
 # 22, 
 
