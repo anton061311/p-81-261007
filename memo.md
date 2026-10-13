@@ -120,7 +120,9 @@ with	람다 결과값  this	                객체를 컨텍스트로 작업 수
 * 객체를 처음 사용할 때 초기화됨 (지연 로딩)
 * 동기적으로 작동 (lazy(LazyThreadSafetyMode.SYNCHRONIZED) 기본 적용)
 
-# 32,
+# 32, companion object(동반 객체) - 정적 멤버
+Java의 static 멤버와 유사하지만, 객체처럼 사용할 수 있다.
+Kotlin에서는 클래스 내부에서 정적 멤버를 선언할 때, companion object를 사용한다.
 
 # 33,
 

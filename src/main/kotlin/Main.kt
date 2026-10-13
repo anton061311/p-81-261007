@@ -1,9 +1,23 @@
-val lazyValue: String by lazy {
-    println("initializing")
-    "Hello"
+class MathUtil {
+
+    companion object {
+
+        val PI = 3.141569
+
+        fun square(n: Int): Int {
+            return n * n
+        }
+    }
+
 }
 
 fun main() {
-    println(lazyValue)
-    println(lazyValue)
+    MathUtil.square(5).also {
+        println(it)
+    }
+
+    MathUtil.PI.also {
+        println(it)
+    }
+
 }
