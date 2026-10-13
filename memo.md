@@ -54,3 +54,6 @@ checked Exception -> try - catch 필수. 안 하면 컴파일이 안 됨
 ------------------------------------------------------------------------
 
 ## 2026.10.08, THR
+# 19, Collection Filtering
+Java에서는 Stream API를 활용해야 하지만,
+Kotlin에서는 filter 함수를 사용하여 간결하게 리스트를 필터링할 수 있다.

@@ -1,14 +1,11 @@
 package com.back
 
 fun main() {
-    val day = 3
+    val numbers = listOf(1, 2, 3, 4, 5, 6)
 
-    val dayName = when (day) {
-        1 -> "Monday"
-        2 -> "Tuesday"
-        3 -> "Wednesday"
-        else -> "Invalid Day"
+    val rst = numbers.filter {it % 2 == 0}
+
+    for (n in rst) {
+        println(n)
     }
-
-    println("Day: $dayName")
 }
