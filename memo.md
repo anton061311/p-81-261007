@@ -147,7 +147,8 @@ val 사용 시 자동으로 Getter 생성
 
 # 37, setter만 있는 경우 (Getter 호출 시 예외 발생)
 
-# 38,
+# 38, Getter와 Setter가 모두 있는 경우 - 커스템 getter/setter
+var 사용 (자동으로 Getter와 Setter 생성)
 
 # 39,
 
