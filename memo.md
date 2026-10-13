@@ -150,6 +150,7 @@ val 사용 시 자동으로 Getter 생성
 # 38, Getter와 Setter가 모두 있는 경우 - 커스템 getter/setter
 var 사용 (자동으로 Getter와 Setter 생성)
 
-# 39,
+## 2026.10.12, MON
+# 39, 주생성자와 init블록
 
 # 40, 
