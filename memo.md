@@ -151,6 +151,6 @@ val 사용 시 자동으로 Getter 생성
 var 사용 (자동으로 Getter와 Setter 생성)
 
 ## 2026.10.12, MON
-# 39, 주생성자와 init블록
+# 39, Main Constructor and init block
 
-# 40, 
+# 40, Secondary Constructor
