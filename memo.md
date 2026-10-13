@@ -145,7 +145,7 @@ Kotlin에서는 클래스 내부에서 정적 멤버를 선언할 때, companion
 # 36, getter만 있는 경우
 val 사용 시 자동으로 Getter 생성
 
-# 37,
+# 37, setter만 있는 경우 (Getter 호출 시 예외 발생)
 
 # 38,
 
