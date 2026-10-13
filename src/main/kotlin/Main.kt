@@ -1,15 +1,12 @@
 package com.back
 
 fun main() {
-    val name: String? = "hello"
+    val length = "Hello".also {
+        println("Before: $it")
+    }.uppercase().also {
+        println("After: $it")
+    }.length
 
-    val len = name?.length ?: 0
-    println(len)
+    println("Length: $length")
 
-    var rst = name?.let {
-        println(it.length)
-        10
-    }
-
-    println(rst)
 }
