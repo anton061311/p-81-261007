@@ -114,7 +114,11 @@ with	람다 결과값  this	                객체를 컨텍스트로 작업 수
 * 초기화 없이 선언 가능, 나중에 setter를 통해 값 할당
 * 초기화 전에 접근하면 예외 발생 (UninitializedPropertyAccessException)
 
-# 31,
+# 31, lazy (Lazy Initialization)
+* lazy는 val(불변 변수) 에서 사용 가능
+* 한 번만 초기화됨 (캐싱됨, 이후 동일한 값 유지)
+* 객체를 처음 사용할 때 초기화됨 (지연 로딩)
+* 동기적으로 작동 (lazy(LazyThreadSafetyMode.SYNCHRONIZED) 기본 적용)
 
 # 32,
 
