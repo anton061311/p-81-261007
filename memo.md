@@ -142,7 +142,8 @@ Kotlin에서는 클래스 내부에서 정적 멤버를 선언할 때, companion
 # 35, private val
 필드의 수정은 막되 접근은 가능하게 하고 싶을 때 => 굳이 private 사용 X
 
-# 36,
+# 36, getter만 있는 경우
+val 사용 시 자동으로 Getter 생성
 
 # 37,
 
