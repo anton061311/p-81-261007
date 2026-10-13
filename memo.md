@@ -57,3 +57,47 @@ checked Exception -> try - catch 필수. 안 하면 컴파일이 안 됨
 # 19, Collection Filtering
 Java에서는 Stream API를 활용해야 하지만,
 Kotlin에서는 filter 함수를 사용하여 간결하게 리스트를 필터링할 수 있다.
+
+# 20, forEach and map
+Java에서는 Stream API를 사용해야 하지만,
+Kotlin에서는 map이 기본적으로 제공된다.
+
+# 21, 
+
+# 22, 
+
+# 23, 
+
+# 24, 
+
+# 25, 
+
+# 26, 
+
+# 27, 
+
+# 28, 
+
+# 29, 
+
+# 30, 
+
+# 31,
+
+# 32,
+
+# 33,
+
+# 34,
+
+# 35,
+
+# 36,
+
+# 37,
+
+# 38,
+
+# 39,
+
+# 40, 
