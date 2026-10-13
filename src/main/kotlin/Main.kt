@@ -1,12 +1,11 @@
 package com.back
 
 fun main() {
-    val length = "Hello".also {
-        println("Before: $it")
-    }.uppercase().also {
-        println("After: $it")
-    }.length
+    val num = 5
 
-    println("Length: $length")
+    val rst = num.run {
+        this * 2 + 10
+    }
 
+    println(rst)
 }
