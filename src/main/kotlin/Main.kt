@@ -9,11 +9,17 @@ class Person {
     }
 }
 
-fun main() {
-    val person = Person().apply {
-        name = "Alice"
-        age = 30
-    }
+    fun main() {
+        val person1 = Person()
+        person1.name = "Alice"
+        person1.age = 25
 
-    person.printInfo()
-}
+        person1.printInfo()
+
+        val person2 = Person().apply {
+            name = "Alice"
+            age = 25
+        }
+
+        person2.printInfo()
+    }
