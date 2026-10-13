@@ -108,7 +108,11 @@ also	객체 자체	  it	                객체 유지 + 추가 로직 수행 (�
 run	    람다 결과값  this	                객체 설정 + 결과 반환 (객체 없이 블록 실행도 가능)
 with	람다 결과값  this	                객체를 컨텍스트로 작업 수행 후 결과 반환
 
-# 30, 
+# 30, latinit
+* lateinit은 var(변경 가능 변수) 에서 사용 가능
+* 기본적으로 null 허용 불가 (String? 불가능)
+* 초기화 없이 선언 가능, 나중에 setter를 통해 값 할당
+* 초기화 전에 접근하면 예외 발생 (UninitializedPropertyAccessException)
 
 # 31,
 
