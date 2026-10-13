@@ -70,7 +70,9 @@ Kotlin에서는 ?:(엘비스 연산자)를 사용하여 null인 경우 기본값
 자바에서는 instanceof를 사용하여 타입을 체크한 후 명시적으로 캐스팅해야 합니다.
 코틀린에서는 is를 사용하며, 스마트 캐스트 기능을 제공하여 자동 캐스팅됩니다.
 
-# 23, 
+# 23,apply, let, also, run, with (Scope method) - @@
+Java에서는 메서드 체이닝을 직접 구현해야 하지만,
+Kotlin에서는 apply, let, also, run, with 같은 스코스 함수를 제공하여 객체 조작을 간결하게 만든다.
 
 # 24, 
 

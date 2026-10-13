@@ -1,10 +1,19 @@
 package com.back
 
-fun main() {
+class Person {
+    var name: String = ""
+    var age: Int = 0
 
-    val obj: Any = "Hello"
-
-    if (obj is String) {
-        println(obj.length)
+    fun printInfo() {
+        println("$name is $age years old.")
     }
+}
+
+fun main() {
+    val person = Person().apply {
+        name = "Alice"
+        age = 30
+    }
+
+    person.printInfo()
 }
